@@ -1,0 +1,19 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinamraSaurav/fed-kiit-website-project.git"
+  },
+  "author": "Vinamra Saurav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VinamraSaurav/fed-kiit-website-project/issues"
+  },
+  "homepage": "https://github.com/VinamraSaurav/fed-kiit-website-project#readme"
+}
