@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../images/MASCOT.png";
+import logo from "../../images/mascot.png";
 import { Link } from "react-router-dom";
 
 const Header = () => {
