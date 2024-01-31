@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img from "../../images/home.png";
+import img from "../../images/laptop.png";
 
 
 const SignMd = () => {

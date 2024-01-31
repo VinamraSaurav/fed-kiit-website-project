@@ -1,4 +1,4 @@
-import logo from "../../images/home.jpeg";
+import logo from "../../images/laptop.png"
 const rectangle="../../images/rectangle.png"
 const About = () => {
   return (

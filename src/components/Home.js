@@ -1,4 +1,4 @@
-import logo from "../../images/home.jpeg";
+import logo from "../../images/laptop.png";
 import { Link } from "react-router-dom";
 
 const Home = () => {
