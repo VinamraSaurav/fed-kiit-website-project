@@ -49,7 +49,7 @@ const Header = () => {
           </h1>
         </div></Link>
         <div className="w-[33.875rem] p-[1rem]">
-          <ul className="list-none flex justify-between items-center font-Poppins text-[1.75rem] font-semibold leading-[99.614%] tracking-[0.00875rem]">
+          <ul className="list-none flex justify-between items-center font-[Poppins] text-[1.75rem] font-semibold leading-[99.614%] tracking-[0.00875rem]">
             <Link to="/"><li className="hover:cursor-pointer" onClick={()=>{scrollTo({top:0, behavior:"smooth"})}}>Home</li></Link>
             <Link to="/about"><li className="hover:cursor-pointer" onClick={()=>{scrollTo({top:1000, behavior:"smooth"})}} >About</li></Link>
             <Link to="/sign"><li className="text-[#F45725] hover:cursor-pointer" onClick={()=>{scrollTo({top:0, behavior:"smooth"})}}>Sign in</li></Link>

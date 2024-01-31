@@ -10,11 +10,11 @@ const About = () => {
             "linear-gradient(180deg, #F45725 -356.87%, rgba(244, 87, 37, 0.00) 75.74%)",
         }}
       ></div>
-      <div className="z-[2] absolute top-[6.88rem] left-[31.06rem] text-white font-poppins text-[8.125rem] font-bold tracking-[0.0625rem]">
+      <div className="z-[2] absolute top-[6.88rem] left-[31.06rem] text-white font-[[poppins]] text-[8.125rem] font-bold tracking-[0.0625rem]">
         Dive In
       </div>
 
-      <div className="z-[2] w-[47.375rem] h-[6.0625] absolute top-[20.31rem] left-[21.44rem] text-white font-poppins text-[3.125rem] font-bold tracking-[0.0625rem]">
+      <div className="z-[2] w-[47.375rem] h-[6.0625] absolute top-[20.31rem] left-[21.44rem] text-white font-[poppins] text-[3.125rem] font-bold tracking-[0.0625rem]">
         to the endless <span className="text-[#f45725]">POSSIBILITIES.</span>
       </div>
 
@@ -117,10 +117,10 @@ const About = () => {
             className="absolute rotate-[-90.571deg] w-[15.01056rem] h-[20.86563rem] left-[4.45rem] bottom-[-1.2rem] rounded-[1rem]"
             src={logo}
           />
-          <div className="absolute transform rotate-[-90.571deg] text-white font-poppins text-[2.1875rem] font-[700] leading-normal left-[-0.45rem] top-[12rem]">
+          <div className="absolute transform rotate-[-90.571deg] text-white font-[poppins] text-[2.1875rem] font-[700] leading-normal left-[-0.45rem] top-[12rem]">
             <p>Inspire</p>
           </div>
-          <div className="absolute transform rotate-[-90.571deg] text-white w-[16.6875rem] h-[11.7105rem] font-poppins text-[1.4rem] font-[400] leading-[2.1875rem] top-[3rem] left-[4rem]">
+          <div className="absolute transform rotate-[-90.571deg] text-white w-[16.6875rem] h-[11.7105rem] font-[poppins] text-[1.4rem] font-[400] leading-[2.1875rem] top-[3rem] left-[4rem]">
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.

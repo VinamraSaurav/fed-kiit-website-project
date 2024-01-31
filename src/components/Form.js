@@ -141,7 +141,7 @@ const Form = () => {
 
         <div className="w-[12.375rem] absolute top-[57.44rem] right-[7.19rem] flex justify-center items-center rounded-[1rem] h-[4.5625rem] py-[0.25rem] px-[1rem] bg-[#F45725]" 
         style={{"boxShadow": "0px 9.965px 9.675px 0px rgba(15, 15, 15, 0.25), 0px 16.539px 16.057px 0px rgba(15, 15, 15, 0.29), 0px 27.247px 26.453px 0px rgba(15, 15, 15, 0.34), 0px 47.62px 46.233px 0px rgba(15, 15, 15, 0.40), 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 0px 0px 1px #2F2F37, 0px 4px 4px 0px rgba(0, 0, 0, 0.25), 0px 1px 0.75px 0px rgba(255, 255, 255, 0.07) inset"}}>
-          <button className="text-white text-center font-poppins text-[2.1875rem] font-[700] leading-normal tracking-[0.04375rem]">Submit</button>
+          <button className="text-white text-center font-[poppins] text-[2.1875rem] font-[700] leading-normal tracking-[0.04375rem]">Submit</button>
         </div>
       </form>
     </div>

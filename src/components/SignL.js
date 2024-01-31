@@ -129,10 +129,10 @@ const SignL = () => {
             }}
           ></div>
 
-          <div className="content absolute top-[11.87rem] left-[41.44rem] text-center font-poppins text-[2.25rem] font-[600] capitalize text-white z-[14]">
+          <div className="content absolute top-[11.87rem] left-[41.44rem] text-center font-[poppins] text-[2.25rem] font-[600] capitalize text-white z-[14]">
             Hello !
           </div>
-          <div className="absolute top-[15.87rem] left-[36.44rem] z-[14] text-center font-poppins text-[2.25rem] font-[600] capitalize text-white">
+          <div className="absolute top-[15.87rem] left-[36.44rem] z-[14] text-center font-[poppins] text-[2.25rem] font-[600] capitalize text-white">
             Welcome Back
           </div>
 
@@ -166,10 +166,10 @@ const SignL = () => {
               className="w-[23.25rem] h-[3.8125rem] rounded-[0.5rem] bg-white px-[1.22rem]"
             ></input>
           </div>
-          <div className="absolute z-[14] top-[30.94rem] left-[47.37rem] text-white font-roboto text-[1.25rem] font-[200] capitalize hover:cursor-pointer">
+          <div className="absolute z-[14] top-[30.94rem] left-[47.37rem] text-white font-[roboto] text-[1.25rem] font-[200] capitalize hover:cursor-pointer">
             Forgot Password ?
           </div>
-          <Link to="/form"><div onClick={()=>{scrollTo({top:0,behavior:"smooth"})}} className="absolute z-[14] top-[35.19rem] left-[33.44rem] w-[23.0625rem] px-[0rem] py-[1.0625rem] content-center items-center rounded-[0.5rem] bg-white text-black font-roboto text-center text-[1.25rem] font-[900] capitalize leading-[1.22275rem] hover:cursor-pointer">
+          <Link to="/form"><div onClick={()=>{scrollTo({top:0,behavior:"smooth"})}} className="absolute z-[14] top-[35.19rem] left-[33.44rem] w-[23.0625rem] px-[0rem] py-[1.0625rem] content-center items-center rounded-[0.5rem] bg-white text-black font-[roboto] text-center text-[1.25rem] font-[900] capitalize leading-[1.22275rem] hover:cursor-pointer">
             Sign In
           </div></Link>
           <div className="absolute z-[14] top-[40.81rem] left-[33.44rem] inline-flex content-center items-center gap-[0.75rem]">
@@ -293,10 +293,10 @@ const SignL = () => {
           </div>
 
           <div className="absolute z-[14] inline-flex content-center items-start gap-[0.375rem] left-[33.41rem] top-[51.31rem]">
-            <div className="text-white capitalize text-[1.25rem] font-[300] font-roboto">
+            <div className="text-white capitalize text-[1.25rem] font-[300] font-[roboto]">
               don’t have an account ?
             </div>
-            <div className="text-white capitalize text-[1.25rem] font-[900] font-roboto hover:cursor-pointer">
+            <div className="text-white capitalize text-[1.25rem] font-[900] font-[roboto] hover:cursor-pointer">
               create account !
             </div>
           </div>

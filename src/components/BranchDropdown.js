@@ -22,7 +22,7 @@ const BranchDropdown= () => {
         style={{ background: "var(--W-Background, #FFF)", position: "relative" }}
         onClick={handleToggleOptions}
       >
-        <div className="w-[22.275rem] h-[auto] outline-none appearance-none text-[#666] font-[400] leading-[1.5rem] font-Noto-Sans">
+        <div className="w-[22.275rem] h-[auto] outline-none appearance-none text-[#666] font-[400] leading-[1.5rem] font-[noto sans]">
           {selectedBranch || "Select Branch"}
         </div>
 

@@ -163,10 +163,10 @@ const SignMd = () => {
             ></input>
           </div>
 
-          <div className="absolute top-[222px] right-[10%] text-white font-roboto text-[12.5px] font-[300] ">
+          <div className="absolute top-[222px] right-[10%] text-white font-[roboto] text-[12.5px] font-[300] ">
             Forgot Password ?
           </div>
-          <Link to="/form"><div onClick={()=>{scrollTo({top:0,behavior:"smooth"})}} className="absolute top-[260px] w-[260px] h-[40px] flex justify-center items-center left-[50%] translate-x-[-50%] bg-white text-black font-roboto font-[900] text-[12px] py-[0.53rem] rounded-[0.5rem]">
+          <Link to="/form"><div onClick={()=>{scrollTo({top:0,behavior:"smooth"})}} className="absolute top-[260px] w-[260px] h-[40px] flex justify-center items-center left-[50%] translate-x-[-50%] bg-white text-black font-[roboto] font-[900] text-[12px] py-[0.53rem] rounded-[0.5rem]">
             Sign In
           </div></Link>
 
@@ -260,10 +260,10 @@ const SignMd = () => {
           </div>
           <div className="w-[260px] ms-auto">
             <div className="absolute z-[14] flex justify-center content-center items-center top-[400px]">
-              <div className="text-white capitalize text-[12px] font-[300] font-roboto mr-[4px]">
+              <div className="text-white capitalize text-[12px] font-[300] font-[roboto] mr-[4px]">
                 don't have an account ?
               </div>
-              <div className="text-white capitalize text-[12px] font-[900] font-roboto hover:cursor-pointer">
+              <div className="text-white capitalize text-[12px] font-[900] font-[roboto] hover:cursor-pointer">
                 create account !
               </div>
             </div>
