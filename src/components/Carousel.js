@@ -1,11 +1,8 @@
-// import imgCarousel from "../utils/imgCarousel"
+
 import { ChevronLeft, ChevronRight } from "react-feather";
 import imgCarousel from "../utils/imgCarousel";
-import img from "../../images/laptop.png"
 import { useState, useEffect } from 'react';
-// import { register } from 'swiper-element-bundle.mjs';
 
-// register();
 
 const Carousel = () => {
     const[curr, setCurr]=useState(0);
