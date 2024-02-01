@@ -1,6 +1,6 @@
 
 # FED-KIIT-WEBSITE - Recruitment Task
-This is the README file for the FED-KIIT-WEBSITE recruitment task. This document provides an overview of the project, requirements, and steps to get started.
+This is the README file for the FED-KIIT-WEBSITE recruitment task. This document provides an overview of the project and steps to get started.
 
 ## Project Overview:
 
