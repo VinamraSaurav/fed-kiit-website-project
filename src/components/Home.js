@@ -7,7 +7,7 @@ const Home = () => {
     <div className="flex h-[64rem] w-[90rem] m-[0] relative">
       
         <div className="w-[45rem] h-[64rem]">
-        <Carousel autoSlide={true}>{imgCarousel.map((img)=><img src={img}/>)}</Carousel>
+        <Carousel/>
         </div>
 
       <div

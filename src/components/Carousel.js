@@ -1,22 +1,17 @@
 // import imgCarousel from "../utils/imgCarousel"
 import { ChevronLeft, ChevronRight } from "react-feather";
-// import imgCarousel from "../utils/imgCarousel";
+import imgCarousel from "../utils/imgCarousel";
 import img from "../../images/laptop.png"
 import { useState, useEffect } from 'react';
 // import { register } from 'swiper-element-bundle.mjs';
 
 // register();
 
-const Carousel = (
-    {children:imgCarousel,
-    autoSlide=false,
-    autoSlideInterval=3000,
-    }) => {
+const Carousel = () => {
     const[curr, setCurr]=useState(0);
 
     useEffect(()=>{
-        if(!autoSlide) return;
-        const slideInterval=setInterval(next,autoSlideInterval)
+        const slideInterval=setInterval(next,3000)
         return()=>clearInterval(slideInterval);
     })
 
@@ -26,13 +21,13 @@ const Carousel = (
     return(
         <div className="relative overflow-hidden">
         <div
-        className="m-[0] flex relative transition transform ease-out duration-500"
+        className="m-[0] flex relative transition transform ease-in-out duration-500"
         style={{
           background:
             "linear-gradient(180deg, #0A0808 0%, rgba(51, 51, 51, 0.00) 100%)",
           transform:`translateX(-${curr*100}%)`
         }}
-      >{imgCarousel}
+      >{imgCarousel.map((img)=><img src={img}/>)}
         </div>
             {/* <img className="w-[45rem] h-[64rem]" src={children}/> */}
             <div className="absolute inset-0 flex items-center justify-between p-4">
