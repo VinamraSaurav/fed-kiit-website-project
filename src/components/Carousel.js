@@ -1,4 +1,3 @@
-
 import { ChevronLeft, ChevronRight } from "react-feather";
 import imgCarousel from "../utils/imgCarousel";
 import { useState, useEffect } from 'react';
