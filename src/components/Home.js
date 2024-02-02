@@ -6,9 +6,8 @@ const Home = () => {
   return (
     <div className="flex h-[64rem] w-[90rem] m-[0] relative">
       
-        <div className="w-[45rem] h-[64rem]">
         <Carousel/>
-        </div>
+        
 
       <div
         className="w-[45rem] h-[64rem] m-auto flex flex-col justify-center items-center gap-[6.62rem]"

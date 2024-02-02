@@ -15,7 +15,7 @@ const Carousel = () => {
     const next=()=>setCurr(curr===imgCarousel.length-1?0:curr+1);
     
     return(
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden h-[64rem] w-[45rem]">
         <div
         className="m-[0]  flex relative transition transform ease-in-out duration-500"
         style={{
@@ -23,7 +23,7 @@ const Carousel = () => {
             "linear-gradient(180deg, #0A0808 0%, rgba(51, 51, 51, 0.00) 100%)",
           transform:`translateX(-${curr*100}%)`
         }}
-      >{imgCarousel.map((img)=><img src={img}/>)}
+      >{imgCarousel.map((img)=><img className="h-[64rem] w-[45rem]" src={img}/>)}
         </div>
             {/* <img className="w-[45rem] h-[64rem]" src={children}/> */}
             <div className="absolute inset-0 flex items-center justify-between p-4">
