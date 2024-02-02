@@ -17,7 +17,7 @@ const Carousel = () => {
     return(
         <div className="relative overflow-hidden">
         <div
-        className="m-[0] flex relative transition transform ease-in-out duration-500"
+        className="m-[0]  flex relative transition transform ease-in-out duration-500"
         style={{
           background:
             "linear-gradient(180deg, #0A0808 0%, rgba(51, 51, 51, 0.00) 100%)",
@@ -27,11 +27,11 @@ const Carousel = () => {
         </div>
             {/* <img className="w-[45rem] h-[64rem]" src={children}/> */}
             <div className="absolute inset-0 flex items-center justify-between p-4">
-            <button className="p-1 rounded-full shadow bg-white/50 text-gray-800 hover:bg-white" onClick={prev}>
-                <ChevronLeft size={40}/>
+            <button className=" rounded-full shadow bg-white/50 text-gray-800 hover:bg-white" onClick={prev}>
+                <ChevronLeft size={30}/>
             </button>
-            <button className="p-1 rounded-full shadow bg-white/50 text-gray-800 hover:bg-white" onClick={next}>
-                <ChevronRight size={40}/>
+            <button className=" rounded-full shadow bg-white/50 text-gray-800 hover:bg-white" onClick={next}>
+                <ChevronRight size={30}/>
             </button>
             </div>
             <div className="absolute bottom-4 left-4 right-0">
